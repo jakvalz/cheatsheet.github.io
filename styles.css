@@ -1,0 +1,156 @@
+@font-face {
+    font-family: 'sofiapro-light';
+    src: url('/Resources/fonts/sofiapro-light.otf') format('opentype');
+}
+
+* {
+    font-family: 'sofiapro-light', sans-serif;
+}
+
+h2, h5, h6 .description-h2, .footercontainer, .intro {
+    opacity: 0.88;
+}
+
+::-webkit-scrollbar {
+    background-color: hsl(207, 99%, 55%)
+}
+
+body {
+    background-color: rgb(164, 47, 47);
+    background-image: url('/Resources/images/binary-code.jpg');
+    background-attachment: fixed;
+}
+
+.intro {
+    text-align: center;
+    font-size: 30px;
+    margin: 20px 200px;
+    padding: 15px;
+    position: relative;
+}
+
+h5, h2, .link-css-item, .description-h2{
+    background-color: rgb(87, 160, 255);
+}
+
+h5, .footerdescription {
+    font-style: italic;
+}
+
+.description-h2, .link-css-item {
+    font-size: large;
+}
+
+/*title*/
+h1 {
+    text-align: center;
+    letter-spacing: 10px;
+    font-size: 75px;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    margin: 50px auto;
+    /*background-color: hsl(220, 90%, 40%);*/
+    width: 700px;
+}
+
+/*HTML 5 <link> element for css*/
+h2 {
+    text-align: center;
+    font-size: 25px;
+    padding: 5px;
+    margin: 100px 50px;
+    width: 150px;
+}
+
+.description-h2 {
+    text-align: center;
+    width: 300px;
+    height: auto;
+    padding: 10px;
+}
+
+.container, .footercontent {
+    display: flex;
+    justify-content: center;
+}
+
+/* ol of description: link to css*/
+.link-css-item {
+    margin: 50px;
+    width: 700px;
+}
+
+h2, .description-h2, .link-css-item {
+    margin: auto;
+}
+
+/*example codes w/in paragraphs*/
+.code-elements {
+    color:rgb(97, 7, 7);
+    font-style: italic;
+}
+
+.footercontainer {
+    display: flexbox;
+    justify-content: center;
+}
+
+footer {
+    background: linear-gradient(rgb(230, 230, 230), rgb(0, 110, 255));
+    margin-top: 300px;
+    padding: 1px;
+}
+
+h6 {
+    color: white;
+    text-transform: uppercase;
+    font-size: large;
+    font-weight: bold;
+    text-align: center;
+    margin: 10px;
+}
+
+.footerdescription {
+    text-align: center;
+}
+
+.footermain {
+    margin: 10px;
+}
+
+  /*this changes the texts size when hovered over
+  but i can't get it to change color or do much else*/
+.footermain:hover, .footermain:active {
+    font-size: 115%;
+    color: white;
+  }
+
+.table {
+    min-width: 400px;
+    min-height: 350px;
+    background-color: hsl(217, 100%, 20%);
+    color: white;
+    text-align: center;
+    padding: 25px;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+th, td {
+    border: 1px solid white;
+    border-collapse: collapse;
+    text-align: center;
+    width: 500px;
+    height: 120px;
+}
+
+thead {
+    height: 25px;
+}
+
+.tabletitle {
+    text-align: center;
+    margin: 75px auto;
+    padding: 15px;
+    width: 300px;
+}
